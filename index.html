@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Friendship Day ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     CINEMATIC LOADING SCREEN
+====================================================== -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-ring"></div>
+
+        <h1 class="loader-title">
+            Friendship Day
+        </h1>
+
+        <p class="loader-text">
+            Preparing a beautiful journey...
+        </p>
+
+        <div class="loading-bar">
+
+            <div class="loading-fill"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =====================================================
+     BACKGROUND EFFECTS
+====================================================== -->
+
+<div id="starfield"></div>
+
+<div id="aurora"></div>
+
+<div id="shootingStars"></div>
+
+<div id="floatingHearts"></div>
+
+<div id="confetti"></div>
+
+<div id="cursorGlow"></div>
+
+<div id="cursorTrail"></div>
+
+<div id="dynamicLight"></div>
+
+<!-- =====================================================
+     MUSIC VISUALIZER
+====================================================== -->
+
+<div class="visualizer">
+
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+
+</div>
+
+<!-- =====================================================
+     MAIN APP
+====================================================== -->
+
+<main id="app">
+
+    <section class="glass-card">
+
+        <h2 id="sceneTitle">
+
+            Happy Friendship Day ❤️
+
+        </h2>
+
+        <div id="typewriter"></div>
+
+    </section>
+
+</main>
+
+<!-- =====================================================
+     CONTROLS
+====================================================== -->
+
+<div class="controls">
+
+    <button id="prevScene">
+
+        ⏮
+
+    </button>
+
+    <button id="playMusic">
+
+        ▶
+
+    </button>
+
+    <button id="nextScene">
+
+        ⏭
+
+    </button>
+
+</div>
+
+<!-- =====================================================
+     AUDIO PANEL
+====================================================== -->
+
+<div class="music-panel glass">
+
+    <div class="music-top">
+
+        <span id="currentTime">
+
+            0:00
+
+        </span>
+
+        <input
+            id="progress"
+            type="range"
+            value="0"
+            min="0"
+            max="100">
+
+        <span id="duration">
+
+            0:00
+
+        </span>
+
+    </div>
+
+    <div class="volume-area">
+
+        🔉
+
+        <input
+            id="volume"
+            type="range"
+            min="0"
+            max="1"
+            value="0.6"
+            step="0.01">
+
+    </div>
+
+</div>
+
+<!-- =====================================================
+     SCENE PROGRESS
+====================================================== -->
+
+<div id="sceneIndicator">
+
+    Scene 1 of 6
+
+</div>
+
+<!-- =====================================================
+     REPLAY BUTTON
+====================================================== -->
+
+<button id="replay">
+
+    Replay Journey
+
+</button>
+
+<!-- =====================================================
+     CLICK TO CONTINUE
+====================================================== -->
+
+<div id="clickHint">
+
+    Click anywhere to continue →
+
+</div>
+
+<!-- =====================================================
+     AUDIO
+====================================================== -->
+
+<audio
+    id="bgMusic"
+    src="music.mp3"
+    preload="auto">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
